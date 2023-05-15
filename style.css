@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Formatação Geral */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+i {
+    color: #fb5607;
+}
+
+.header {
+    padding: 32px;
+}
+
+.container-logo {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.logo::after {
+    content: "";
+    position: absolute;
+    right: 0px;
+    top: 11px;
+    display: block;
+    height: 1px;
+    width: 85%;
+    background-color: #004aad;
+}
+
+.container-titulo {
+    background-image: url("images/home_office_backgroud.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.conteudo-esquerda {
+    padding: 50px 300px 50px 50px;
+}
+
+.conteudo-esquerda h1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.conteudo-esquerda p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+section {
+    padding: 32px;
+}
+
+strong {
+    color: #03045e;
+}
+
+.wrapper {
+    padding: 30px;
+}
+
+.wrapper h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.container-checkbox {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 30px 0;
+}
+
+.wrapper p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.container-checkbox div {
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+.container-checkbox div span {
+    margin-left: 10px;
+}
+
+/* Seção Tenho interesse */
+/* .wrapper-botao {
+    display: flex;
+    flex-direction: column;
+} */
+
+.wrapper-botao p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+button {
+    padding: 20px 70px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fb5607;
+    display: block;
+    margin: 50px auto 0;
+}
+
+button a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* Público Frio */
+#publico-frio i {
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #03045e;
+    color: #fff;
+}
+
+#publico-frio div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+#publico-frio p {
+    font-size: 20px;
+    line-height: 35px;
+}
+
+/* Promessa */
+.atencao {
+    background-color: #ebebeb;
+    padding: 32px;
+}
+
+.atencao p {
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.atencao p strong {
+    text-transform: uppercase;
+}
