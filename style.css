@@ -148,6 +148,7 @@ button a {
 .atencao {
     background-color: #ebebeb;
     padding: 32px;
+    margin-bottom: 50px;
 }
 
 .atencao p {
@@ -157,4 +158,41 @@ button a {
 
 .atencao p strong {
     text-transform: uppercase;
+}
+
+.atencao-continuacao p {
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.atencao-continuacao .agilidade {
+    text-transform: uppercase;
+}
+
+.atencao-star {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 0;
+}
+
+/* Linkedin */
+.linkedin {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.linkedin p {
+    text-align: left;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.linkedin img {
+    width: 60%;
+}
+
+.linkedin .pleno {
+    align-self: flex-end;
 }
