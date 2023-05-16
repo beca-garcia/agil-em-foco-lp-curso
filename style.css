@@ -196,3 +196,105 @@ button a {
 .linkedin .pleno {
     align-self: flex-end;
 }
+
+/* Glassdoor */
+.salarios img {
+    width: 30%;
+}
+
+.salarios {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    margin: 20px;
+}
+
+#glassdoor p {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+/* Conexão */
+.conexao {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.conexao p {
+    margin-bottom: 20px;
+}
+
+/* autoridade */
+#autoridade {
+    background-color: #ebebeb;
+}
+
+.mentoria {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 30px 0;
+}
+
+#autoridade p {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.autoridade h2 {
+    color: #fb5607;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.certificacoes_container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 15px 0;
+}
+
+.certificacoes {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.autoridade_apresentacao p {
+    margin-bottom: 15px;
+    line-height: 32px;
+}
+
+/* Como vai funcionar */
+.secao_titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.funcionamento .caneta {
+    background-color: #fb5607;
+    border-radius: 5px;
+    padding: 6px;
+    color: #fff;
+}
+
+.funcionamento ul {
+    list-style: none;
+}
+
+.funcionamento ul li {
+    margin: 15px;
+}
+
+.funcionamento ul li i {
+    margin-right: 10px;
+}
+
+.funcionamento p {
+    font-size: 20px;
+    line-height: 32px;
+}
