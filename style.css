@@ -237,6 +237,12 @@ button a {
     margin: 30px 0;
 }
 
+.anne {
+    width: 30%;
+    margin: 0 auto;
+    display: block;
+}
+
 #autoridade p {
     font-size: 20px;
     line-height: 32px;
