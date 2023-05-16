@@ -298,3 +298,54 @@ button a {
     font-size: 20px;
     line-height: 32px;
 }
+
+.secao_titulo .checklist {
+    background-color: #fb5607;
+    border-radius: 5px;
+    padding: 6px;
+    color: #fff;
+}
+
+.programacao ul {
+    list-style: none;
+}
+
+.programacao .programacao_lista li {
+    margin: 15px 0;
+}
+
+.programacao_lista .lista_item {
+    margin-left: 30px;
+}
+
+.programacao p {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 700;
+}
+
+/* Perguntas e Respostas */
+.secao_titulo {
+    margin-bottom: 20px;
+}
+
+.secao_titulo .pergunta {
+    background-color: #fb5607;
+    border-radius: 5px;
+    padding: 6px;
+    color: #fff;
+}
+
+.perguntas p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #fb5607;
+    color: white;
+    height: 150px;
+    text-align: center;
+}
