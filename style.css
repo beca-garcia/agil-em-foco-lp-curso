@@ -1,357 +1,176 @@
+/* Mobile First */
+/* Configurações Gerais */
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;    
+}
+
+:root {
+    --logo: #fb5607;
+    --linha: #004aad;
+    --strong: #03045e;
+    --icons: #fb5607;
+    --icons-lista: #fb5607;
+    --button-color: #fb5607; 
+    --icon-titulo-secao: #ffffff;
+    --icon-titulo-secao-bgc: #03045e; 
+    /* --bgc-icons:  ; */
+}
+
+html {
+    font-size: 62.5%; /* 10px */
+}
+
+body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* Formatação Geral */
 .container {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
+
+    border: 1px dashed blue;
 }
 
-i {
-    color: #fb5607;
-}
-
-.header {
-    padding: 32px;
-}
-
-.container-logo {
-    position: relative;
-    margin-bottom: 10px;
-}
-
-.logo::after {
-    content: "";
-    position: absolute;
-    right: 0px;
-    top: 11px;
-    display: block;
-    height: 1px;
-    width: 85%;
-    background-color: #004aad;
-}
-
-.container-titulo {
-    background-image: url("images/home_office_backgroud.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; 
-}
-
-.conteudo-esquerda {
-    padding: 50px 300px 50px 50px;
-}
-
-.conteudo-esquerda h1 {
-    margin-bottom: 20px;
-    font-size: 40px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.conteudo-esquerda p {
-    font-size: 20px;
-    line-height: 30px;
-}
-
-section {
-    padding: 32px;
+.logo {
+    color: var(--logo);
 }
 
 strong {
-    color: #03045e;
+    color: var(--strong);
 }
 
-.wrapper {
-    padding: 30px;
+section {
+    padding-block: 2rem;
 }
 
-.wrapper h2 {
-    text-align: center;
-    font-size: 30px;
-}
-
-.container-checkbox {
+.titulos_da_secao {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin: 30px 0;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
 }
 
-.wrapper p {
-    font-size: 20px;
+.titulos_da_secao i {
+    padding: 0.6rem;
+    font-size: 1.5rem;
+    color: var(--icon-titulo-secao);
+    background-color: var(--icon-titulo-secao-bgc);
+    border-radius: 0.5rem;
+}
+
+.titulos_da_secao h2 {
     text-align: center;
+    line-height: 2.1rem;
 }
 
-.container-checkbox div {
-    font-size: 20px;
-    padding: 20px 0;
-}
-
-.container-checkbox div span {
-    margin-left: 10px;
-}
-
-/* Seção Tenho interesse */
-/* .wrapper-botao {
-    display: flex;
-    flex-direction: column;
-} */
-
-.wrapper-botao p {
-    font-size: 20px;
-    line-height: 30px;
+p {
+    font-size: 1.2rem;
+    line-height: 1.9rem;
 }
 
 button {
-    padding: 20px 70px;
+    padding: 1.2rem 2rem;
     border: none;
-    border-radius: 5px;
-    background-color: #fb5607;
+    border-radius: 0.5rem;
+    background-color: var(--button-color);
     display: block;
-    margin: 50px auto 0;
+    margin: 0 auto;
 }
 
 button a {
     text-transform: uppercase;
     text-decoration: none;
     color: #fff;
-    font-size: 14px;
+    font-size: 1.2rem;
     font-weight: 700;
 }
 
-/* Público Frio */
-#publico-frio i {
-    font-size: 20px;
-    padding: 8px;
-    border-radius: 8px;
-    background-color: #03045e;
-    color: #fff;
-}
-
-#publico-frio div {
+ul {
+    list-style: none;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 15px;
-}
-
-#publico-frio p {
-    font-size: 20px;
-    line-height: 35px;
-}
-
-/* Promessa */
-.atencao {
-    background-color: #ebebeb;
-    padding: 32px;
-    margin-bottom: 50px;
-}
-
-.atencao p {
-    font-size: 20px;
-    line-height: 35px;
-}
-
-.atencao p strong {
-    text-transform: uppercase;
-}
-
-.atencao-continuacao p {
-    font-size: 20px;
-    line-height: 35px;
-}
-
-.atencao-continuacao .agilidade {
-    text-transform: uppercase;
-}
-
-.atencao-star {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 20px 0;
-}
-
-/* Linkedin */
-.linkedin {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.linkedin p {
-    text-align: left;
-    font-size: 20px;
-    line-height: 35px;
-}
-
-.linkedin img {
-    width: 60%;
-}
-
-.linkedin .pleno {
-    align-self: flex-end;
-}
-
-/* Glassdoor */
-.salarios img {
-    width: 30%;
-}
-
-.salarios {
-    display: flex;
-    /* flex-direction: column; */
-    justify-content: space-between;
-    margin: 20px;
-}
-
-#glassdoor p {
-    font-size: 20px;
-    line-height: 32px;
-}
-
-/* Conexão */
-.conexao {
-    font-size: 20px;
-    line-height: 32px;
-}
-
-.conexao p {
-    margin-bottom: 20px;
-}
-
-/* autoridade */
-#autoridade {
-    background-color: #ebebeb;
-}
-
-.mentoria {
-    display: flex;
-    align-items: center;
     justify-content: center;
-    gap: 10px;
-    margin: 30px 0;
+    gap: 1rem;
+    margin-block: 2rem;
 }
 
-.anne {
-    width: 30%;
-    margin: 0 auto;
+ul li {
+    font-size: 1.2rem;
+}
+
+ul li i {
+    margin-right: 0.5rem;
+    color: var(--icons-lista);
+}
+
+
+
+/* Cabeçalho */
+header {
+    padding-block: 1rem;
+}
+
+.header {
+    position: relative;
+}
+
+.logo::after {
+    content: "";
+    position: absolute;
+    right: 0px;
+    top: 7px;
     display: block;
+    height: 1px;
+    width: 70%;
+    background-color: var(--linha);
 }
 
-#autoridade p {
-    font-size: 20px;
-    line-height: 32px;
+/* Introdução */
+#introducao {
+    padding-block: 0;
 }
 
-.autoridade h2 {
-    color: #fb5607;
-    text-align: center;
-    margin-bottom: 20px;
+.introducao {
+    background-image: url("images/home_office_backgroud.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-block: 1rem;
 }
 
-.certificacoes_container {
+.conteudo_a_esquerda {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin: 15px 0;
-}
-
-.certificacoes {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.autoridade_apresentacao p {
-    margin-bottom: 15px;
-    line-height: 32px;
-}
-
-/* Como vai funcionar */
-.secao_titulo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-}
-
-.funcionamento .caneta {
-    background-color: #fb5607;
-    border-radius: 5px;
-    padding: 6px;
-    color: #fff;
-}
-
-.funcionamento ul {
-    list-style: none;
-}
-
-.funcionamento ul li {
-    margin: 15px;
-}
-
-.funcionamento ul li i {
-    margin-right: 10px;
-}
-
-.funcionamento p {
-    font-size: 20px;
-    line-height: 32px;
-}
-
-.secao_titulo .checklist {
-    background-color: #fb5607;
-    border-radius: 5px;
-    padding: 6px;
-    color: #fff;
-}
-
-.programacao ul {
-    list-style: none;
-}
-
-.programacao .programacao_lista li {
-    margin: 15px 0;
-}
-
-.programacao_lista .lista_item {
-    margin-left: 30px;
-}
-
-.programacao p {
-    font-size: 20px;
-    line-height: 32px;
-    font-weight: 700;
-}
-
-/* Perguntas e Respostas */
-.secao_titulo {
-    margin-bottom: 20px;
-}
-
-.secao_titulo .pergunta {
-    background-color: #fb5607;
-    border-radius: 5px;
-    padding: 6px;
-    color: #fff;
-}
-
-.perguntas p {
-    font-size: 14px;
-    line-height: 20px;
-    margin-bottom: 30px;
-}
-
-/* Rodapé */
-footer {
-    background-color: #fb5607;
-    color: white;
-    height: 150px;
+    gap: 1.5rem;
     text-align: center;
 }
+
+h1 {
+    font-size: 1.5rem;
+    line-height: 2.1rem;
+}
+
+.introducao p {
+    font-size: 1rem;
+}
+
+.introducao button {
+    margin-top: 2rem;
+}
+
+/* Seção 01 - Palavras da Agilidade */
+.chamada_atencao {
+    background-image: url("images/transicao_de_carreira_02_30.png");    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.chamada_texto {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
