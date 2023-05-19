@@ -172,12 +172,42 @@ h1 strong {
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 3rem;   
 }
 
 .sem_nome_ainda p {
     line-height: 3.2rem;
     font-size: 1.6rem;
+}
+
+/* Seção 03 - Práticas Ágeis */
+.bgcFundoSecao {
+    background-color: var(--card);
+}
+
+.sem_nome_ainda p {
+    line-height: 3.2rem;
+    font-size: 1.6rem;
+}
+
+/* Seção 04 - Conteúdo Programático */
+.conteudoProgramatico .container_lista {
+    padding: 3.5rem;
+}
+
+.conteudoProgramatico .container_lista ul li strong {
+    color: #000000;
+    font-weight: 700;
+}
+
+.conteudoProgramatico .container_lista ul li i {
+    font-size: 0.8rem;
+}
+
+.container_lista .container_lista02 .lista02 .lista_item02 {
+    display: flex;    
+    align-items: center;
+    gap: 0.7rem;
 }
 
 /* Seção 02 e 05- Chamada de Atenção */

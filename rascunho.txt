@@ -1,0 +1,45 @@
+<!--
+              uma gestão ativa e eficiente, com
+              
+              
+              gestão de  equipes multidisciplinares  cujo objetivo é promover a melhoria continua, ciclos curtos de entrega e construção de soluções baseadas na necessidade do cliente. surgiram com o objetivo de promover melhoria
+              contínua, ciclos rápidos de entrega e evolução do produto e
+              serviço com base nas necessidades do cliente. . -->
+
+
+
+, nesse curso iremos te mostrar
+            o início da jornada, começando pelos
+            conceitos básicos, não adianta eu sair jogando
+            conteúdo para você do básico ao avançado de uma só vez,
+            vamos passo a passo juntos nessa caminhada que
+            começa com o primeiro degrau. Você se inscrevendo no nosso curso
+            <strong class="agilidade"
+              ><u
+                ><i class="fa-solid fa-quote-left"></i> Introdução à
+                Agilidade
+                <i class="fa-solid fa-quote-right"></i></u></strong
+            >.
+
+<!-- <ul class="lista">
+          <li class="lista_item">
+            <i class="fa-solid fa-square-check"></i>
+            Metodologia Ágil?
+          </li>
+          <li class="lista_item">
+            <i class="fa-solid fa-square-check"></i>
+            Scrum?
+          </li>
+          <li class="lista_item">
+            <i class="fa-solid fa-square-check"></i>
+            Kanban?
+          </li>
+          <li class="lista_item">
+            <i class="fa-solid fa-square-check"></i>
+            Escrever tarefas em post-it?
+          </li>
+          <li class="lista_item">
+            <i class="fa-solid fa-square-check"></i>
+            Colocar tarefas em colunas de: A Fazer, Fazendo e Feito?
+          </li>
+        </ul> -->
