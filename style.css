@@ -25,13 +25,13 @@ html {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Montserrat", sans-serif
 }
 
-.container {
+/* .container {
     width: 90%;
     margin: 0 auto;
-}
+} */
 
 .logo {
     color: var(--logo);
@@ -139,23 +139,35 @@ header {
     padding-block: 0;
 }
 
-.introducao {
-    background-image: url("images/home_office_backgroud.jpg");
+.bg_image_fundo {
+    background-image: url("images/mulher_animada.png");
     background-repeat: no-repeat;
     background-size: cover;
     padding-block: 1rem;
 }
 
-.conteudo_a_esquerda {
+.titulo_principal {
+    /* border: 1px solid green; */
+    padding: 2.5rem;
+
+}
+
+/* .conteudo_a_esquerda {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
     text-align: center;
-}
+} */
 
 h1 {
     font-size: 2.5rem;
-    line-height: 2.8rem;
+    font-family: "Montserrat", sans-serif;
+    line-height: 3.5rem;
+}
+
+h1 strong {
+    color: var(--strong02);
+
 }
 
 .introducao p {
