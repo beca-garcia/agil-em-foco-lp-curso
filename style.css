@@ -135,7 +135,7 @@ header {
     background-color: var(--linha);
 }
 
-/* Introdução */
+/* Seçaõ 01 - Introdução */
 #introducao {
     padding-block: 0;
 }
@@ -148,16 +148,8 @@ header {
 }
 
 .titulo_principal {
-    /* border: 1px solid green; */
-    padding: 2.5rem;
+    padding: 3.5rem;
 }
-
-/* .conteudo_a_esquerda {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    text-align: center;
-} */
 
 h1 {
     font-size: 2.5rem;
@@ -166,7 +158,6 @@ h1 {
 
 h1 strong {
     color: var(--strong02);
-
 }
 
 .introducao p {
@@ -178,11 +169,23 @@ h1 strong {
     margin-top: 2rem;    
 }
 
-.introducao butto a {
-    
+/* Seção 02 - Palavras da Agilidade */
+.sem_nome_ainda {
+    border: 1px solid green;
+    padding: 3.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
 }
 
-/* Seção 01 - Palavras da Agilidade */
+.sem_nome_ainda p {
+    /* border: 1px dashed red; */
+    line-height: 3.2rem;
+    font-size: 1.6rem;
+}
+
+
 .chamada_atencao {
     background-image: url("images/transicao_de_carreira_02_30.png");    
     background-repeat: no-repeat;
