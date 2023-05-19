@@ -43,11 +43,11 @@ ul {
 }
 
 .containerDasSecoes {
-    padding: 2rem 3.5rem;
+    padding: 2.5rem 3.5rem;
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 3rem;   
+    gap: 3rem; 
 }
 
 .configuracaoDosParagrafos {
@@ -67,7 +67,7 @@ button {
     border-radius: 0.5rem;
     background-color: var(--button-color);
     display: block;
-    margin: 2rem auto;
+    margin: 0 auto;
 }
 
 button a {
@@ -92,28 +92,6 @@ button a {
     font-size: 2.5rem;
     color: var(--titulo-secao);
 }
-
-
-
-
-/* .lista {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1rem;
-    margin-block: 2rem;
-} */
-
-/* .lista .lista_item {
-    font-size: 1.5rem;
-    line-height: 2.5rem;
-} */
-
-/* .lista .lista_item i {
-    margin-right: 0.5rem;
-    color: var(--icons-lista);
-} */
 
 /* Cabeçalho */
 #header {
@@ -141,7 +119,7 @@ button a {
     background-image: url("images/mulher_animada.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 60rem;
+    height: 61rem;
 }
 
 .tituloPrincipal {
@@ -156,6 +134,16 @@ h1 {
 h1 strong {
     color: var(--strong-destaque);
 }
+
+.introducao .containerDasSecoes a {
+    color: #000000;
+}
+
+.introducao i {
+    font-size: 2rem;
+}
+
+
 
 /* Seção 02 - Palavras da Agilidade */
 /* Todas as configuração são gerais */
