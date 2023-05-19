@@ -75,6 +75,10 @@ button a {
     font-weight: 700;
 }
 
+.btn {
+    margin-block: 2.5rem;
+}
+
 .titulos-da-secao {
     display: flex;
     flex-direction: column;
@@ -191,6 +195,7 @@ ul {
     gap: 0.7rem;    
 }
 
+
 /* Seção 05 - Mentora */
 .container-sobre-anne {
     /* padding: 2.5rem 3.5rem; */
@@ -227,7 +232,11 @@ ul {
 }
 
 .container-certificacoes h4 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+}
+
+.container-certificacoes p {
+    font-size: 1.1rem;
 }
 
 /* Seção 06 - Para quem é este curso */
@@ -239,7 +248,8 @@ ul {
 }
 
 .container-para-quem ul li {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    line-height: 2rem;
 }
 
 .container-para-quem ul li i {
@@ -249,7 +259,7 @@ ul {
 }
 
 .curso-para-quem-paragrafo .configuracao-dos-paragrafos {
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 2rem;
 }
 
