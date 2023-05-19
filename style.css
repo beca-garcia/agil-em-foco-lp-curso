@@ -211,8 +211,27 @@ ul {
     font-size: 2rem;
 }
 
+.borda-fina {
+    padding: 2.1rem;
+}
+
 .container-sobre-anne .configuracao-dos-paragrafos {
-    text-align: left;
+    font-size: 1.3rem;
+}
+
+.container-certificacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.container-certificacoes h3 {
+    font-size: 1.6rem;
+    color: var(--strong-destaque);
+}
+
+.container-certificacoes h4 {
+    font-size: 1.2rem;
 }
 
 
