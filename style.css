@@ -216,14 +216,20 @@ ul {
     padding: 2.1rem;
 }
 
-.container-sobre-anne .configuracao-dos-paragrafos {
+/* .container-sobre-anne .configuracao-dos-paragrafos {
     font-size: 1.3rem;
-}
+} */
 
 .container-certificacoes {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 2.8rem;
+}
+
+.container-certificacoes div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .container-certificacoes h3 {
@@ -232,11 +238,11 @@ ul {
 }
 
 .container-certificacoes h4 {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
 }
 
 .container-certificacoes p {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 /* Seção 06 - Para quem é este curso */
@@ -248,8 +254,8 @@ ul {
 }
 
 .container-para-quem ul li {
-    font-size: 1.3rem;
-    line-height: 2rem;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
 }
 
 .container-para-quem ul li i {
@@ -259,7 +265,7 @@ ul {
 }
 
 .curso-para-quem-paragrafo .configuracao-dos-paragrafos {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     line-height: 2rem;
 }
 
