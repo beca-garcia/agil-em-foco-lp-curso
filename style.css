@@ -25,7 +25,8 @@ html {
 }
 
 body {
-    font-family: "Montserrat", sans-serif
+    font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
 }
 
 /* .container {
@@ -149,7 +150,6 @@ header {
 .titulo_principal {
     /* border: 1px solid green; */
     padding: 2.5rem;
-
 }
 
 /* .conteudo_a_esquerda {
@@ -161,8 +161,7 @@ header {
 
 h1 {
     font-size: 2.5rem;
-    font-family: "Montserrat", sans-serif;
-    line-height: 3.5rem;
+    line-height: 4rem;
 }
 
 h1 strong {
@@ -176,7 +175,11 @@ h1 strong {
 }
 
 .introducao button {
-    margin-top: 2rem;
+    margin-top: 2rem;    
+}
+
+.introducao butto a {
+    
 }
 
 /* Seção 01 - Palavras da Agilidade */
