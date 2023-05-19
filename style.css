@@ -18,6 +18,7 @@
     --button-color: #fb5607; 
     --icon-titulo-secao: #ffffff;
     --icon-titulo-secao-bgc: #03045e; 
+    --linha-autoridade: #fb5607;
     --card: #ebebeb;
 }
 
@@ -38,11 +39,7 @@ a {
     text-decoration: none;
 }
 
-ul {
-    list-style: none;
-}
-
-.containerDasSecoes {
+.container-das-secoes {
     padding: 2.5rem 3.5rem;
     text-align: center;
     display: flex;
@@ -50,12 +47,12 @@ ul {
     gap: 3rem; 
 }
 
-.configuracaoDosParagrafos {
+.configuracao-dos-paragrafos {
     line-height: 3.2rem;
     font-size: 1.6rem;
 }
 
-.flexParaParagrafos {
+.flex-para-paragrafos {
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
@@ -78,7 +75,7 @@ button a {
     font-weight: 700;
 }
 
-.titulosDaSecao {
+.titulos-da-secao {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -86,7 +83,7 @@ button a {
     gap: 1rem;
 }
 
-.titulosDaSecao h2 {
+.titulos-da-secao h2 {
     text-align: center;
     line-height: 3rem;
     font-size: 2.5rem;
@@ -115,14 +112,14 @@ button a {
 }
 
 /* Seçaõ 01 - Introdução */
-.bgImageFundo {
+.bg-image-fundo {
     background-image: url("images/mulher_animada.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 61rem;
 }
 
-.tituloPrincipal {
+.titulo-principal {
     padding: 3.5rem;
 }
 
@@ -135,7 +132,7 @@ h1 strong {
     color: var(--strong-destaque);
 }
 
-.introducao .containerDasSecoes a {
+.introducao .container-das-secoes a {
     color: #000000;
 }
 
@@ -143,53 +140,96 @@ h1 strong {
     font-size: 2rem;
 }
 
-
-
 /* Seção 02 - Palavras da Agilidade */
 /* Todas as configuração são gerais */
 
 /* Seção 03 - Práticas Ágeis */
-.bgcFundoSecao {
+.bgc-fundo-secao {
     background-color: var(--card);
 }
 
 /* Seção 04 - Conteúdo Programático */
-.conteudoProgramatico {
+.conteudo-programatico {
     padding: 2rem 3.5rem;
 }
 
+/* ul {
+    list-style: none;
+} */
+
 /* Lista */
-.conteudoProgramaticoListaItem {
+ul {
+    list-style: none;
+}
+
+/* Lista normal */
+.lista-item {
     font-size: 1.6rem;
     line-height: 3.5rem;
 }
 
-.conteudoProgramaticoListaItem i {
+.lista-item i {
     color: var(--icons);
     font-size: 0.8rem;
 }
 
 /* Lista dentro da lista */
-.conteudoProgramaticoLista02 {
-    margin-left: 3rem;
+.lista-dentro-da-lista {
+    margin-left: 2rem;
 }
 
-.conteudoProgramaticoListaItem02 {
+.lista-dentro-da-lista-item {
     font-size: 1.3rem;
     line-height: 2.5rem;
 }
 
-.conteudoProgramaticoListaItem02 i {
+.lista-dentro-da-lista-item i {
     color: var(--icons);
     font-size: 1.5rem;
 }
 
-/* Geral */
-.flexListaItem {
+/* Geral das duas listas */
+.flex-lista-item {
     display: flex;    
     align-items: center;
     gap: 0.7rem;    
 }
+
+/* Seção 05 - Mentora */
+.container-sobre-anne {
+    /* padding: 2.5rem 3.5rem; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem; 
+    border: 1px solid var(--card);
+    border-radius: 1rem;
+}
+
+.container-sobre-anne h2 {
+    margin: 2rem 0;
+    font-size: 2rem;
+}
+
+.container-sobre-anne .configuracao-dos-paragrafos {
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Seção 02 e 05- Chamada de Atenção */
 /* Todas as configurações são gerais */
