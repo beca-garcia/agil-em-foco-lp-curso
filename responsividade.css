@@ -123,12 +123,12 @@
     .container-das-secoes,
     .introducao,
     .header {
-        padding: 3.5rem 15rem;        
-    }
+        padding: 2rem 20rem;        
+    }    
 
     /* Seçaõ 01 - Introdução */   
     div.bg-image-fundo {
-        height: 58rem;
+        height: 50rem;
     }    
 
  }
