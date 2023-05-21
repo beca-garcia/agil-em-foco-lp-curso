@@ -1,0 +1,13 @@
+@media (min-width: 375px) { 
+    /* Seçaõ 01 - Introdução */
+    .bg-image-fundo {
+    height: 53rem;
+    }
+ }
+
+ @media (min-width: 425px) { 
+    /* Seçaõ 01 - Introdução */
+    .bg-image-fundo {
+    /* height: 53rem; */
+    }
+ }
