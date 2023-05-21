@@ -5,9 +5,102 @@
     }
  }
 
- @media (min-width: 425px) { 
-    /* Seçaõ 01 - Introdução */
-    .bg-image-fundo {
-    /* height: 53rem; */
+ @media (min-width: 768px) {
+     /* Configurações Gerais  */
+    button {
+        padding: 1.6rem 3.5rem;
     }
+    
+    button a {
+        font-size: 1.6rem;
+    }
+    
+     .configuracao-dos-paragrafos {
+        line-height: 4rem;
+        font-size: 2rem;
+    }
+
+    .titulos-da-secao h2 {
+        line-height: 4rem;
+        font-size: 3.5rem;
+        margin-top: 6rem;
+    }
+
+    .btn {
+        margin-block: 4.5rem;
+    }
+    
+    /* Seçaõ 01 - Introdução */
+    h1 {
+        font-size: 4.8rem;
+        line-height: 6.5rem;
+    }
+
+    /* Seção 04 - Conteúdo Programático */
+    .conteudo-programatico {
+        padding: 2rem 3.5rem;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /* Lista normal */
+.lista-item {
+    font-size: 2.2rem;
+    line-height: 4.5rem;
+}
+
+/* Lista dentro da lista */
+.lista-dentro-da-lista-item {
+    font-size: 2rem;
+    line-height: 3.5rem;
+}
+
+/* Seção 05 - Mentora */
+.container-sobre-anne h2 {
+    margin: 4rem 0;
+    font-size: 3rem;
+}
+
+/* certificações */
+.container-certificacoes h3 {
+    font-size: 2.5rem;
+}
+
+.container-certificacoes h4 {
+    font-size: 2rem;
+}
+
+.container-certificacoes p {
+    font-size: 1.6rem;
+}
+
+/* Seção 06 - Para quem é este curso */
+.container-para-quem ul li {
+    font-size: 2rem;
+    line-height: 3.5rem;
+}
+
+.container-para-quem ul li i {
+    font-size: 1rem;
+    margin-right: 0.4rem;
+}
+
+.curso-para-quem-paragrafo .configuracao-dos-paragrafos {
+    font-size: 1.8rem;
+    line-height: 3.5rem;
+}
+
+
  }
+
+
+
+
+
+
+
+
+ /* 
+    media querie 425 ok
+
+  */
