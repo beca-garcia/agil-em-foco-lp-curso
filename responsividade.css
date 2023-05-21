@@ -94,8 +94,9 @@
  @media (min-width: 1024px) {
     /* Configurações Gerais */
     .container-das-secoes,
-    .introducao {
-        padding: 3.5rem 15rem;        
+    .introducao,
+    .header {
+        padding: 2rem 15rem;        
     }
 
     /* Cabeçalho */
@@ -114,7 +115,21 @@
     /* Seçaõ 01 - Introdução */   
     div.bg-image-fundo {
         height: 58rem;
-        }
+    }
+ }
+
+ @media (min-width: 1440px) {
+    /* Configurações Gerais */
+    .container-das-secoes,
+    .introducao,
+    .header {
+        padding: 3.5rem 15rem;        
+    }
+
+    /* Seçaõ 01 - Introdução */   
+    div.bg-image-fundo {
+        height: 58rem;
+    }    
 
  }
 
