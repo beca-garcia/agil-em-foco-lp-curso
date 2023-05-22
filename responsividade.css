@@ -100,7 +100,7 @@
     .container-das-secoes,
     .introducao,
     .header {
-        padding: 2rem 15rem;        
+        padding: 1.5rem 15rem;        
     }
 
     /* Cabeçalho */
@@ -118,7 +118,7 @@
 
     /* Seçaõ 01 - Introdução */   
     div.bg-image-fundo {
-        height: 58rem;
+        height: 52rem;
     }
  }
 
