@@ -294,19 +294,19 @@ h1 {
 }
 
 .container-para-quem ul li {
-    font-size: 1.6rem;
-    line-height: 2.5rem;
+    font-size: 3rem;
+    line-height: 4.5rem;
 }
 
 .container-para-quem ul li i {
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: var(--icons);
-    margin-right: 0.2rem;
+    margin-right: 0.3rem;
 }
 
 .curso-para-quem-paragrafo .configuracao-dos-paragrafos {
-    font-size: 1.3rem;
-    line-height: 2rem;
+    font-size: 2.5rem;
+    line-height: 5rem;
 }
 
 /* Rodapé */
