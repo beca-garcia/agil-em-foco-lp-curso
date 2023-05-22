@@ -79,9 +79,9 @@ a {
     font-weight: 700;
 }
 
-/* .btn {
-    margin-block: 2.5rem;
-} */
+.btn {
+    margin-top: 3.5rem;
+}
 
 .titulos-da-secao {
     display: flex;
@@ -296,7 +296,7 @@ h1 strong {
 
 /* Rodapé */
 footer {
-    background-color: var(--bgc-header);
+    background-color: var(#fff);
 }
 
 footer nav {
@@ -310,9 +310,13 @@ footer nav {
     gap: 0.5rem;
 }
 
+.navegacao-rodape h3 {
+    color: var(--strong-destaque);
+}
+
 .navegacao-rodape i {
     font-size: 2.5rem;
-    color: var(--logo);
+    color: var(--icons);
 }
 
 .redes-sociais {
@@ -323,9 +327,19 @@ footer nav {
 }
 
 .redes-sociais a {
-    color: #000000;
+    color: #000;
 }
 
 .redes-sociais i {
     font-size: 2rem;
+}
+
+.rodape-paragrafos {
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.rodape-paragrafos p i {
+    color: red;
 }
