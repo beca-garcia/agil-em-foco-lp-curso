@@ -1,25 +1,17 @@
 @media (min-width: 375px) { 
     /* Seçaõ 01 - Introdução */
-    div.bg-image-fundo {
-    height: 58rem;
+    .bg-image-fundo {
+    height: 56rem;
     }
 
     .anne {
-        width: 60%;
+        width: 65%;
     }
  }
 
  @media (min-width: 768px) {
      /* Configurações Gerais  */
-    button {
-        padding: 1.6rem 3.5rem;
-    }
-    
-    button a {
-        font-size: 1.6rem;
-    }
-    
-     .configuracao-dos-paragrafos {
+    .configuracao-dos-paragrafos {
         line-height: 4rem;
         font-size: 2rem;
     }
@@ -27,7 +19,7 @@
     .titulos-da-secao h2 {
         line-height: 4rem;
         font-size: 3.5rem;
-        margin-top: 6rem;
+        margin-top: 4rem;
     }
 
     .btn {
@@ -38,12 +30,6 @@
     h1 {
         font-size: 4.8rem;
         line-height: 6.5rem;
-    }
-
-    #introducao .bg-image-fundo {
-    height: 62rem;
-
-
     }
 
     /* Seção 04 - Conteúdo Programático */
@@ -107,6 +93,10 @@
 
  @media (min-width: 1024px) {
     /* Configurações Gerais */
+    section {
+        padding: 0;
+    }
+
     .container-das-secoes,
     .introducao,
     .header {
@@ -129,6 +119,11 @@
     /* Seçaõ 01 - Introdução */   
     div.bg-image-fundo {
         height: 52rem;
+    }
+
+/* Seção 03 - Práticas Ágeis */
+    .bgc-fundo-secao {
+        background-color: #fff;
     }
  }
 
@@ -154,6 +149,15 @@
  @media (min-width: 2560px) {
     /* Mobile First */    
 /* Configurações Gerais */
+.button {
+    width: 38rem;
+    height: 8rem;   
+}
+
+a {
+    font-size: 2.2rem;
+}
+
 #palavras-da-agilidade .container-das-secoes {
     padding: 10rem 20rem;
     gap: 3rem; 
