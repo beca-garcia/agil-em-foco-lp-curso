@@ -148,23 +148,18 @@
  @media (min-width: 2560px) {
     /* Mobile First */    
 /* Configurações Gerais */
-.container-das-secoes {
-    padding: 2.5rem 3.5rem;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
+#palavras-da-agilidade .container-das-secoes {
+    padding: 10rem 20rem;
     gap: 3rem; 
 }
 
 .configuracao-dos-paragrafos {
-    line-height: 3.2rem;
-    font-size: 1.6rem;
+    line-height: 6.2rem;
+    font-size: 3.6rem;
 }
 
 .flex-para-paragrafos {
-    display: flex;
-    flex-direction: column;
-    gap: 2.5rem;
+    gap: 8rem;
 }
 
 button {
@@ -180,19 +175,8 @@ button a {
     margin-block: 4.5rem;
 }
 
-.titulos-da-secao {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-}
-
 .titulos-da-secao h2 {
-    text-align: center;
-    line-height: 3rem;
-    font-size: 2.5rem;
-    color: var(--titulo-secao);
+    font-size: 6rem;
 }
 
 /* Cabeçalho */
@@ -217,6 +201,7 @@ div.bg-image-fundo {
 h1 {
     font-size: 8rem;
     line-height: 8.8rem;
+    text-align: center;
 }
 
 .introducao i {
