@@ -315,37 +315,31 @@ footer {
 }
 
 footer nav {
-    padding: 2rem 3.5rem;
+    padding: 2rem 20rem;
 }
 
-.navegacao-rodape {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5rem;
+.navegacao-rodape {    
+    gap: 1rem;
+}
+
+.navegacao-rodape h3 {
+    font-size: 3rem;
 }
 
 .navegacao-rodape i {
-    font-size: 2.5rem;
-    color: var(--logo);
+    font-size: 3.5rem;
 }
 
 .redes-sociais {
-    padding: 2rem 0;
+    padding: 2.2rem 0;
     display: flex;
     justify-content: center;
-    gap: 2rem;
-}
-
-.redes-sociais a {
-    color: #000000;
+    gap: 4rem;
 }
 
 .redes-sociais i {
-    font-size: 2rem;
+    font-size: 2.8rem;
 }
-
-
  }
 
  
