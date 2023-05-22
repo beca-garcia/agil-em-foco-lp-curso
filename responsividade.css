@@ -48,55 +48,55 @@
     }
 
     /* Lista normal */
-.lista-item {
-    font-size: 2.2rem;
-    line-height: 4.5rem;
-}
+    .lista-item {
+        font-size: 2.2rem;
+        line-height: 4.5rem;
+    }
 
-/* Lista dentro da lista */
-.lista-dentro-da-lista-item {
-    font-size: 2rem;
-    line-height: 3.5rem;
-}
+    /* Lista dentro da lista */
+    .lista-dentro-da-lista-item {
+        font-size: 2rem;
+        line-height: 3.5rem;
+    }
 
-/* Seção 05 - Mentora */
-.container-sobre-anne h2 {
-    margin: 4rem 0;
-    font-size: 3rem;
-}
+    /* Seção 05 - Mentora */
+    .container-sobre-anne h2 {
+        margin: 4rem 0;
+        font-size: 3rem;
+    }
 
-.anne {
-    width: 30%;
-}
+    .anne {
+        width: 30%;
+    }
 
-/* certificações */
-.container-certificacoes h3 {
-    font-size: 2.5rem;
-}
+    /* certificações */
+    .container-certificacoes h3 {
+        font-size: 2.5rem;
+    }
 
-.container-certificacoes h4 {
-    font-size: 2rem;
-}
+    .container-certificacoes h4 {
+        font-size: 2rem;
+    }
 
-.container-certificacoes p {
-    font-size: 1.6rem;
-}
+    .container-certificacoes p {
+        font-size: 1.6rem;
+    }
 
-/* Seção 06 - Para quem é este curso */
-.container-para-quem ul li {
-    font-size: 2rem;
-    line-height: 3.5rem;
-}
+    /* Seção 06 - Para quem é este curso */
+    .container-para-quem ul li {
+        font-size: 2rem;
+        line-height: 3.5rem;
+    }
 
-.container-para-quem ul li i {
-    font-size: 1rem;
-    margin-right: 0.4rem;
-}
+    .container-para-quem ul li i {
+        font-size: 1rem;
+        margin-right: 0.4rem;
+    }
 
-.curso-para-quem-paragrafo .configuracao-dos-paragrafos {
-    font-size: 1.8rem;
-    line-height: 3.5rem;
-}
+    .curso-para-quem-paragrafo .configuracao-dos-paragrafos {
+        font-size: 1.8rem;
+        line-height: 3.5rem;
+    }
  }
 
  @media (min-width: 1024px) {
@@ -146,24 +146,14 @@
  }
 
  @media (min-width: 2560px) {
-    /* Mobile First */
+    /* Mobile First */    
 /* Configurações Gerais */
-h3.logo {
-    font-size: 2.8rem;
-}
-
-.navegacao i {
-    font-size: 2.8rem;
-}
-
-
-
-
-
-
 .container-das-secoes {
-    padding: 3.5rem 20pxrem;
-    
+    padding: 2.5rem 3.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem; 
 }
 
 .configuracao-dos-paragrafos {
@@ -178,24 +168,16 @@ h3.logo {
 }
 
 button {
-    padding: 1.2rem 2rem;
-    border: none;
-    border-radius: 0.5rem;
-    background-color: var(--button-color);
-    display: block;
-    margin: 0 auto;
+    padding: 3.2rem 8rem;
+    border-radius: 1.5rem;
 }
 
 button a {
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #fff;
-    font-size: 1.2rem;
-    font-weight: 700;
+    font-size: 3.2rem;
 }
 
 .btn {
-    margin-block: 2.5rem;
+    margin-block: 4.5rem;
 }
 
 .titulos-da-secao {
@@ -214,53 +196,31 @@ button a {
 }
 
 /* Cabeçalho */
-#header {
-    background-color: var(--bgc-header);
+.navegacao {    
+    padding: 2rem 3.5rem;
+    gap: 2.5rem;
 }
 
-.header {
-    padding-block: 1rem;
-}
-
-.navegacao {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    padding: 0 3.5rem;
+.navegacao .logo {
+    font-size: 3rem;
 }
 
 .navegacao i {
-    color: var(--logo);
-    font-size: 2.5rem;
+    font-size: 4.5rem;
 }
 
 /* Seçaõ 01 - Introdução */
-.bg-image-fundo {
-    background-image: url("images/mulher_animada.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 61rem;
-}
-
-.titulo-principal {
-    padding: 3.5rem;
+div.bg-image-fundo {
+    height: 65rem;
 }
 
 h1 {
-    font-size: 3rem;
-    line-height: 4.8rem;
-}
-
-h1 strong {
-    color: var(--strong-destaque);
-}
-
-.introducao .container-das-secoes a {
-    color: #000000;
+    font-size: 8rem;
+    line-height: 8.8rem;
 }
 
 .introducao i {
-    font-size: 2rem;
+    font-size: 4rem;
 }
 
 /* Seção 02 - Palavras da Agilidade */
@@ -277,8 +237,15 @@ h1 strong {
 }
 
 /* Lista */
+
 ul {
     list-style: none;
+}
+.lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Lista normal */
@@ -331,6 +298,10 @@ ul {
 
 .borda-fina {
     padding: 2.1rem;
+}
+
+.anne {
+    width: 100%;
 }
 
 .container-certificacoes {
@@ -417,6 +388,7 @@ footer nav {
 .redes-sociais i {
     font-size: 2rem;
 }
+
 
  }
 
