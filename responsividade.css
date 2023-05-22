@@ -65,6 +65,10 @@
     font-size: 3rem;
 }
 
+.anne {
+    width: 30%;
+}
+
 /* certificações */
 .container-certificacoes h3 {
     font-size: 2.5rem;
@@ -134,6 +138,11 @@
     div.bg-image-fundo {
         height: 50rem;
     }   
+
+    /* Seção 05 - Mentora */
+    img.anne {
+        width: 20%;
+    }
  }
 
  @media (min-width: 2560px) {
