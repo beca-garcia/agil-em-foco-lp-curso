@@ -3,6 +3,10 @@
     .bg-image-fundo {
     height: 53rem;
     }
+
+    .anne {
+        width: 60%;
+    }
  }
 
  @media (min-width: 768px) {
