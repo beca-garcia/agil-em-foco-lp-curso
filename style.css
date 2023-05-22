@@ -152,8 +152,15 @@ h1 strong {
 }
 
 /* Lista */
+
 ul {
     list-style: none;
+}
+.lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Lista normal */
@@ -202,26 +209,14 @@ ul {
 .container-sobre-anne h2 {
     margin: 2rem 0;
     font-size: 2rem;
-    /* position: relative; */
-
 }
 
 .borda-fina {
     padding: 2.1rem;
-    /* position: relative; */
 }
-
-/* .quadrado-da-imagem {
-    position: absolute;   
-    left: 80px;
-    top: -173px;
-    margin: 0 auto;
-} */
-
 
 .anne {
     width: 100%;
-    /* border: 1px solid black; */
 }
 
 .container-certificacoes {
