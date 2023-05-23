@@ -270,7 +270,39 @@ h1 strong {
     font-size: 1.2rem;
 }
 
-/* Seção 06 - Para quem é este curso */
+/* Seção 06 - Valor do Curso */
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.valor {
+    border: 2px solid var(--card);
+    border-radius: 2rem;
+    width: 25rem;
+    height: 15rem;
+    padding: 1rem;
+}
+
+.valor i {
+    font-size: 4rem;
+}
+
+.valor p {
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: var(--strong-destaque);
+    margin: 2rem 0;
+}
+
+.transferencia p {
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+/* Seção 07 - Para quem é este curso */
 .container-para-quem ul {
     display: flex;
     flex-direction: column;
