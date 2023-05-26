@@ -283,7 +283,64 @@ h1 {
     font-size: 2.5rem;
 }
 
-/* Seção 06 - Para quem é este curso */
+/* Seção 06 - Valor */
+.valor {
+    width: 45rem;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.valor i {
+    font-size: 6.5rem;
+}
+
+.valor p {
+    font-size: 7.5rem;
+}
+
+.transferencia p {
+    line-height: 1.5rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* Seção 07 - Datas e Horários */
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* gap: 3rem; */
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 45rem;
+    height: 35rem;
+    padding: 1rem;
+}
+
+.data i {
+    font-size: 5.5rem;
+}
+
+.data p {
+    font-size: 6.5rem;
+    color: var(--strong-destaque);
+}
+
+.data .horario {
+    font-size: 3rem;
+    color: #000;
+}
+
+/* Seção 08 - Para quem é este curso */
 .container-para-quem ul {
     display: flex;
     flex-direction: column;
@@ -309,7 +366,7 @@ h1 {
 
 /* Rodapé */
 footer {
-    background-color: var(--bgc-header);
+    background-color: #fff;
 }
 
 footer nav {
@@ -336,7 +393,11 @@ footer nav {
 }
 
 .redes-sociais i {
-    font-size: 2.8rem;
+    font-size: 4rem;
+}
+
+.rodape-paragrafos {
+    font-size: 2rem;
 }
  }
 
