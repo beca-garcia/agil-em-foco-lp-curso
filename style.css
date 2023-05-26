@@ -134,6 +134,7 @@ a {
 h1 {
     font-size: 3rem;
     line-height: 4.8rem;
+    text-align: center;
 }
 
 h1 strong {
@@ -302,7 +303,41 @@ h1 strong {
     font-weight: 700;
 }
 
-/* Seção 07 - Para quem é este curso */
+/* Seção 07 - Datas do Curso */
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 25rem;
+    height: 15rem;
+    padding: 1rem;
+}
+
+.data i {
+    font-size: 3.5rem;
+}
+
+.data p {
+    font-size: 3.5rem;
+    color: var(--strong-destaque);
+}
+
+.data .horario {
+    font-size: 2.2rem;
+    color: #000;
+}
+
+
+/* Seção 08 - Para quem é este curso */
 .container-para-quem ul {
     display: flex;
     flex-direction: column;
