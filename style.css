@@ -119,7 +119,7 @@ a {
     font-size: 2.5rem;
 }
 
-/* Seçaõ 01 - Introdução */
+/* Introdução */
 .bg-image-fundo {
     background-image: url("images/mulher_animada.png");
     background-repeat: no-repeat;
@@ -156,15 +156,15 @@ h1 strong {
     color: #000;  
 }
 
-/* Seção 02 - Palavras da Agilidade */
+/* Palavras da Agilidade */
 /* Todas as configuração são gerais */
 
-/* Seção 03 - Práticas Ágeis */
+/* Práticas Ágeis */
 .bgc-fundo-secao {
     background-color: var(--card);
 }
 
-/* Seção 04 - Conteúdo Programático */
+/* Conteúdo Programático */
 .conteudo-programatico {
     padding: 2rem 3.5rem;
 }
@@ -223,7 +223,85 @@ h1 strong {
     gap: 0.7rem;    
 }
 
-/* Seção 05 - Mentora */
+/* Valor do Curso */
+#valor {
+    padding-bottom: 4rem;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.valor {
+    border: 2px solid var(--card);
+    border-radius: 2rem;
+    width: 25rem;
+    height: 15rem;
+    padding: 1rem;
+}
+
+.valor i {
+    font-size: 4rem;
+}
+
+.valor p {
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: var(--strong-destaque);
+    margin: 2rem 0;
+}
+
+.transferencia p {
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+/* Datas do Curso */
+#data {
+    padding-bottom: 4rem;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 25rem;
+    height: 25rem;
+    padding: 1rem;
+}
+
+.data i {
+    font-size: 3.5rem;
+}
+
+.data p {
+    font-size: 3.5rem;
+    color: var(--strong-destaque);
+}
+
+p.dia-da-semana {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.data .horario {
+    font-size: 2.2rem;
+    color: #000;
+}
+
+/* Mentora */
 .container-sobre-anne {
     text-align: center;
     display: flex;
@@ -271,80 +349,7 @@ h1 strong {
     font-size: 1.2rem;
 }
 
-/* Seção 06 - Valor do Curso */
-#valor {
-    padding-bottom: 4rem;
-}
-
-.card {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.valor {
-    border: 2px solid var(--card);
-    border-radius: 2rem;
-    width: 25rem;
-    height: 15rem;
-    padding: 1rem;
-}
-
-.valor i {
-    font-size: 4rem;
-}
-
-.valor p {
-    font-size: 4.5rem;
-    font-weight: 700;
-    color: var(--strong-destaque);
-    margin: 2rem 0;
-}
-
-.transferencia p {
-    line-height: 1.5rem;
-    font-size: 1.1rem;
-    font-weight: 700;
-}
-
-/* Seção 07 - Datas do Curso */
-#data {
-    padding-bottom: 4rem;
-}
-
-.cards {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 3rem;
-}
-
-.data {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    width: 25rem;
-    height: 15rem;
-    padding: 1rem;
-}
-
-.data i {
-    font-size: 3.5rem;
-}
-
-.data p {
-    font-size: 3.5rem;
-    color: var(--strong-destaque);
-}
-
-.data .horario {
-    font-size: 2.2rem;
-    color: #000;
-}
-
-/* Seção 08 - Para quem é este curso */
+/* Para quem é este curso */
 .container-para-quem ul {
     display: flex;
     flex-direction: column;
