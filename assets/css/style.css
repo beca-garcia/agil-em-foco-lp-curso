@@ -216,6 +216,12 @@ header img {
     font-size: 1rem;
 }
 
+/* Novas Turmas em Breve */
+.card-data .instagram i {
+    font-size: 4rem;
+    color: var(--icone-color);
+}
+
 /* Datas Disponíveis */
 .card-data {
     border: 1px solid var(--button-border);
