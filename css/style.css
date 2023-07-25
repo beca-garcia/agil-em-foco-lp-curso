@@ -1,0 +1,557 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* variáveis */
+:root {
+    /* cores de background */
+    --body: #000000;
+    --button: #fb5607;
+
+    /* cores de texto */
+    --body-color: #ffffff;
+    --light-white: #ffffff;
+    --dark-black: #000000;
+    --padrao: #fb5607;
+    --destaque: #fb5607;
+    --coracao: #ff0000;
+
+    /* botão e ícones */
+    --button-color: #fb5607;
+    --icone: #ffffff;
+    --estrelas: #ffe600;
+    --icone-gradient: linear-gradient(45deg, #fb5607 34%, #ffe600 94%);
+}
+
+html {
+    font-size: 62.5%; /* 10px */
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--body);
+    color: var(--body-color);
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+/* Geral Tags */
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+section {
+    padding-block: 4rem;
+}
+
+/* Geral Classes */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.4rem;
+}
+
+.destaque {
+    color: var(--destaque);
+    /* ver como animar essa propriedade */
+}
+
+/* imagens */
+.agil-em-foco {
+    width: 4.8rem; /* 48px */
+}
+
+.img-icone {
+    width: 8.8rem;
+}
+
+/* ícones  */
+.social-icon {
+    font-size: 2.4rem;   
+    color: var(--icone); 
+    transition: transform 0.2s;
+}
+
+.social-icon:hover {
+    color: var(--padrao);
+    transform: scale(1.2)
+}
+
+.estrelas {
+    color: var(--estrelas);
+    font-size: 1.6rem;   
+}
+
+.aspas {
+    color: var(--padrao);
+    font-size: 0.8rem;
+    padding-inline: 0.2rem;
+}
+
+/* Geral Classes Textos */
+.title {
+    font-size: 32px;
+    line-height: 150%;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 24px;
+    line-height: 140%;
+    text-align: center;
+    color: var(--padrao);
+}
+
+.p-principal {
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;    
+}
+
+/* Botões */
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--button-color);
+    background-color: var(--button);
+    border-radius: 1rem;
+    width: 24rem;
+    height: 5.6rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--light-white);
+    animation: botaoAnimado 0.5s infinite alternate;
+}
+
+@keyframes botaoAnimado {
+    from {
+        transform: translateZ(0) scale(1);
+    }
+    to {
+        transform: translateZ(-8px) scale(1.1);
+    }    
+}
+
+/* Cards */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+}
+
+/* Cabeçalho */
+.banner-nova-turma {
+    border: 1px dashed yellow;
+    background-color: #ffe600;
+    border-radius: 1rem;
+    padding-block: 2rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    animation: banner 0.5s infinite alternate;
+
+}
+
+@keyframes banner {
+    from {
+        transform: translateZ(0) scale(0.8);
+    }
+    to {
+        transform: translateZ(-8px) scale(1);
+    }       
+}
+
+.banner-title {
+    font-size: 3.2rem;
+    text-align: center;
+    color: #000000;
+}
+
+
+#header {
+    padding-block: 2rem 4rem;
+}
+
+.bg-header {
+    position: relative;
+}
+
+.bg-header::before {
+    content: "";
+    display: block;
+    background-image: linear-gradient(to bottom, #0000001a, rgb(0, 0, 0)), url("../assets/images/banner/mulher_animada.jpeg");
+    position: absolute;    
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    opacity: 0.5;
+}
+
+/* Navegação */
+.header-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-links {
+    display: flex;
+    gap: 1.6rem;
+}
+
+.text-box-navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 3.2rem;
+    padding-block: 3.2rem;  
+}
+
+.text-box-navigation .social-icon {
+    background-image: var(--icone-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+h1 .bgc-destaque {
+    background-color: var(--destaque);
+}
+
+/* Seção 03 | Como Funciona Nosso Curso */
+.card {
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    justify-content: center;
+    gap: 2.4rem;
+    border-radius: 0.8rem;
+    background-color: var(--light-white);
+    width: 25.6rem;
+    padding: 2.4rem;
+} 
+
+.card:hover {
+    box-shadow: 4px 4px 8px var(--padrao);
+}
+
+.card .p-principal {
+    color: var(--dark-black);
+    font-weight: 700;
+}
+
+#curso-resumo .text-box {
+    justify-content: center;
+    align-items: center;
+    gap: 3.2rem;
+}
+
+/* Seção 04 | Depoimentos */
+.cards-depoimento {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.6rem;
+}
+
+.card-depoimento {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    border-radius: 0.8rem;
+    background-color: var(--light-white);
+    color: var(--dark-black);
+    width: 29rem;
+    padding: 0.8rem;
+}
+
+.card-depoimento:hover {
+    box-shadow: 4px 4px 8px var(--estrelas) ;
+}
+
+blockquote p {
+    font-weight: 500;            
+}
+
+blockquote cite {
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+/* Seção 05 | Conteúdo Programático */
+#conteudo-programatico {
+    background-color: var(--body-color);    
+}
+
+#conteudo-programatico .text-box {
+    justify-content: center;
+    align-items: center;
+}
+
+#conteudo-programatico p {
+    color: var(--dark-black);
+}
+
+.topicos {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding-block: 1.6rem;
+}
+
+.topico .subtitle {
+    text-align: left;
+    color: var(--dark-black);
+}
+
+.numero {
+    font-size: 2.4rem;
+}
+
+.ponto {
+    font-size: 0.8rem;
+}
+
+.linha {
+    border-bottom: 2px solid var(--destaque);
+    border-radius: 50%;
+    margin-block: 1rem;
+    width: 15rem;
+    display: block;
+}
+
+/* Seção 06 | Anne Caroline */
+
+.container-anne p {
+    margin-bottom: 2.4rem;
+}
+
+.container-anne p:last-child {
+    margin-bottom: 0;
+}
+
+.container-anne-foto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block:1.6rem ;
+}
+
+.anne-img {
+    width: 32.8rem;
+}
+
+.certificacoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block:1.6rem;
+}
+
+.certificacao {
+    width: 30.4rem;
+}
+
+/* Seção 07 | Investimento */
+#investimento .text-box {
+    justify-content: center;
+    align-items: center;
+}
+
+.card-investimento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+    border-radius: 0.8rem;
+    background-color: var(--light-white);
+    color: var(--dark-black);
+    width: 25.6rem;
+    padding: 2.4rem;
+}
+
+.card-investimento:hover {
+    box-shadow: 4px 4px 8px var(--padrao);
+}
+
+.card-investimento .subtitle {
+    font-weight: 700;
+    font-size: 3.2rem;
+    color: var(--destaque);
+}
+
+.card-investimento .p-principal {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.numeros i {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.numeros i.ponto {
+    font-size: 0.8rem;
+}
+
+/* Seção 08 | Datas Disponíveis */
+.card-novas-turmas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+    border-radius: 0.8rem;
+    background-color: var(--light-white);
+    color: var(--dark-black);
+    width: 27.2rem;
+    padding: 2.4rem;
+}
+
+.card-novas-turmas:hover {
+    box-shadow: 4px 4px 8px var(--padrao);
+}
+
+.card-novas-turmas .p-principal {
+    font-weight: 700;
+    font-size: 3.2rem;
+}
+
+.card-novas-turmas .subtitle {
+    font-weight: 700;
+    font-size: 3.2rem;
+    color: var(--destaque);
+}
+
+.card-novas-turmas h3 {
+    font-weight: 500;
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+.card-novas-turmas .p-secundario {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--padrao);
+}
+
+/* .card-novas-turmas .social-icon {
+    color: var(--destaque);
+    font-size: 4rem;
+} */
+
+/* Seção 09 | Para quem é este curso */
+.lista {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.lista li {
+    font-size: 1.6rem;
+}
+
+.lista li i {
+    background-image: var(--icone-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-right: 0.8rem;
+    font-size: 1.6rem;
+}
+
+#duvidas .p-secundario {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+/* Seção 10 | Rodapé */
+
+.footer-navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.4rem;
+    padding: 2.4rem;
+}
+
+.footer-text {
+    text-align: center;
+}
+
+.coracao {
+    color: var(--coracao);
+    font-size: 0.8rem;
+    animation: coracaoBatendo 0.4s infinite alternate;
+}
+
+@keyframes coracaoBatendo {
+    from {
+        transform: translateZ(0) scale(1);
+    }
+    to {
+        transform: translateZ(-8px) scale(1.3);
+    }    
+}
+
+/* Seção 11 | Botão do WhatsApp */
+.btn-whatsapp {
+    position: fixed;
+    bottom: 1.6rem;
+    right: 2.4rem;
+    z-index: 99;
+}
+
+.btn-whatsapp img {
+    max-width: 5.6rem;
+    transition: transform 0.4s;
+}
+
+.btn-whatsapp img:hover {
+    transform: scale(1.1);
+}
+
+.btn-whatsapp .tooltip-text {
+    visibility: hidden;
+    position: absolute;
+    width: 10.4rem;
+    top: 1.6rem;
+    left: -12rem;
+    padding: 0.8rem;
+    border-radius: 0.8rem;
+    text-align: center;
+    background-color: var(--destaque);
+    color: var(--light-white);
+    font-weight: 700;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.btn-whatsapp:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
